@@ -17,8 +17,8 @@ class logintest(unittest.TestCase):
         print (browser.title)
         browser.find_element_by_class_name('login').click()
         time.sleep(3)
-        browser.find_element_by_name("email").send_keys("jialezhang@huntcoder.com")  # Find the query box
-        browser.find_element_by_name("password").send_keys("w123456")  # Find the query box
+        browser.find_element_by_name("email").send_keys("**********")  # Find the query box
+        browser.find_element_by_name("password").send_keys("********")  # Find the query box
         time.sleep(10)  # Let the page load, will be added to the API
         browser.find_element_by_class_name('account-footer').click()
         #self.assertEqual('https://www.jianxun.io/account/login#b',browser.current_url)
