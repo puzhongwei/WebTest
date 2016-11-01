@@ -148,8 +148,8 @@ def main():
     time.sleep(3)
     driver.find_element_by_xpath('//*[@id="login-form"]/div[1]/div[1]/div/div[1]/span').click()
     time.sleep(0.25)
-    driver.find_element_by_name("email").send_keys("1365051774@qq.com")  # Find the query box
-    driver.find_element_by_name("password").send_keys("106699pzhw")  # Find the query box
+    driver.find_element_by_name("email").send_keys("*******")  # Find the query box
+    driver.find_element_by_name("password").send_keys("********")  # Find the query box
     #time.sleep(10)  # Let the page load, will be added to the API
 
     #等待页面的上元素刷新出来
